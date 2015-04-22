@@ -1,10 +1,9 @@
 <?php
 
 /**
- * The default controller, called when no controller/method has been passed
- * to the application.
+ * The test controller
  */
-class DefaultController extends Controller
+class TestController extends Controller
 {
     /**
      * The default controller method.
@@ -28,7 +27,7 @@ class DefaultController extends Controller
         }
 
         // Create a view
-        $this->view('DefaultView', ['param_1' => $defaultModel->param_1], ['param_1' => $postData->param_1]);
+        $this->view('TestView', ['param_1' => $defaultModel->param_1], ['param_1' => $postData->param_1]);
     }
 }
 

@@ -6,7 +6,7 @@ class DefaultModel
     
     public function __construct()
     {
-        echo 'Model created<br>';
+        //echo 'Model created<br>';
     }
 }
 
